@@ -1,0 +1,517 @@
+/* Remove dotted outline in IE or FireFox and grey border in chrome, Safari */
+:focus, :hover, :active { outline:0 !important; 
+  -webkit-box-shadow: none !important; 
+  -moz-box-shadow: none !important; 
+  box-shadow: none !important; }
+
+
+
+@font-face {
+    font-family: myFont;
+    src: url(adele-light-webfont.ttf);
+}
+
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
+  /*font-family: myFont;
+  font-family: Frutiger;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;*/
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/*
+====================Home page===================
+*/
+
+.fa-bars {
+  font-size: 1.5em;
+  color: #FCFCFC;
+}
+
+.navbar-header a {
+  color:#FCFCFC;
+}
+
+.navbar-custom {
+	margin-bottom: 0;
+	font-weight: 500;
+  background: #1C1B2D;
+	
+}
+
+.navbar-brand {
+      font-size:2em;
+      color:#FCFCFC;
+      font-weight: 500;
+    }
+
+.fadein-start {
+  opacity:0;
+  transition:opacity 5s;
+}
+
+.fadein {
+  opacity:1;
+}
+
+.navbar-custom li a:visited,
+.navbar-custom li a:focus {
+  color: #FCFCFC;
+  background-color: transparent;
+}
+
+.navbar-custom li a {
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	transition:background .3s ease-in-out;
+}
+
+.navbar-custom li.active a {
+	background-color: transparent;
+}
+
+
+.navbar-custom li.active {
+    background-color: #565A59;
+}
+
+.navbar-custom li a:hover {
+	color: #D5D5D5;
+	background-color: transparent;
+}
+
+@media(min-width:768px) {
+    .navbar-custom {
+        padding: 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .3s ease-in-out,padding .3s ease-in-out;
+        -moz-transition: background .3s ease-in-out,padding .3s ease-in-out;
+        transition: background .3s ease-in-out,padding .3s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #495456;
+    }
+}
+
+.menuBar,
+.menuBar:visited {
+	font-size:1.4em;
+  color:#FCFCFC;
+}
+
+#projectMenuColor:visited {
+  color:#FCFCFC;
+}
+
+#home {
+      background-image: url("image/BP4.jpg");
+      background-size: cover;
+      width: 100%;
+    }
+
+
+
+.marginTop {
+      margin-top: 180px;
+    }
+
+.center {
+      text-align: center;
+   }
+   
+
+
+.marginBottom {
+      margin-bottom: 30px;
+    }
+
+
+.btn-circle {
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    padding: 7px 16px;
+    border: 4px solid #6BD560;
+    border-radius: 100%!important;
+    font-size: 50px;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.fa-arrow-down {
+	color: white;
+}
+
+.fa-arrow-down:hover {
+	color: #6BD560;
+}
+
+h1 {
+  color: #6BD560;
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+/*
+====================About===================
+*/
+
+#aboutUp {
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 80px;
+}
+
+#aboutDown {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 40px;
+}
+
+
+#aboutUp:hover, #aboutDown:hover {
+  color: grey;
+}
+
+#aboutUp:focus, #aboutDown:focus {
+  outline: 0;
+}
+
+.img-circle {
+  -webkit-box-shadow: 0px -7px 12px 0px rgba(50, 50, 50, 0.55);
+  -moz-box-shadow:    0px -7px 12px 0px rgba(50, 50, 50, 0.55);
+  box-shadow:         0px -7px 12px 0px rgba(50, 50, 50, 0.55);
+}
+
+
+h2 {
+  font-size: 2.8em;
+}
+
+p {
+	font-size: 1.9em;
+}
+
+h2, p, .img-circle {
+  font-family: myFont;
+  color: #FCFCFC;
+  margin: auto;
+}
+
+
+#about {
+	background-color: #6ECD66;
+	width: 100%;
+	padding-top: 70px;
+}
+
+
+
+/*
+====================Projects===================
+*/
+h3 {
+  font-weight: 150%;
+  font-size: 2.8em;
+  color: #FCFCFC;
+  font-family: myFont;
+  margin-bottom: 60px;
+}
+
+#projectUp {
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 0px;
+}
+
+#projectDown {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 40px;
+}
+
+
+#projectUp:hover, #projectDown:hover {
+  color: grey;
+}
+
+#myProjects {
+  background-color: rgb(21, 206, 234);
+  width: 100%;
+  margin-top: 0px;
+  padding-top: 70px;
+}
+
+
+.dynamicTile .col-lg-2.col-xs-4 {
+        padding: 5px;
+    }
+
+    .bigicon {
+        font-size: 67px;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .icontext {
+        color: white;
+        font-size: 27px;
+    }
+    
+
+    .dynamicTile .col-lg-4.col-xs-8 {
+        padding: 5px;
+    }
+
+    #tile1 {
+        background: #85E400;
+    }
+
+    #tile2 {
+        background: #E34846;
+    }
+
+    #tile3 {
+        background: #E29000;
+    }
+
+    #tile4 {
+        background: #613DBC;
+    }
+
+    #tile5 {
+        background: #BB3659;
+    }
+
+    #tile6 {
+        background: #E29000;
+    }
+
+    #tile7 {
+        background: white;
+    }
+
+    #tile8 {
+        background: #613DBC;
+    }
+
+    #tile9 {
+        background: #85E400;
+    }
+
+    #tile10 {
+        background: #E34846;
+    }
+
+    .tilecaption {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        margin: 0!important;
+        text-align: center;
+        color: white;
+        font-family: Segoe UI;
+        font-weight: lighter;
+    }
+
+@media screen and (max-width: 600px) {
+    .icontext {
+      font-size: 0;
+    }
+}
+
+.grid figure {
+  margin: 0;
+  position: relative;
+}
+
+.grid figure img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+}
+
+.grid figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background: #2c3f52;
+  color: #ed4e6e;
+}
+
+.grid figcaption h3 { 
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.grid figcaption p {
+  margin-top: 0;
+  padding: 0;
+}
+
+.grid figcaption a {
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 2px;
+  display: inline-block;
+  background: #ed4e6e;
+  color: #fff;
+}
+
+.style figcaption {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+  -moz-transition: -moz-transform 0.4s, opacity 0.4s;
+  transition: transform 0.4s, opacity 0.4s;
+}
+
+.style figure:hover figcaption {
+  opacity: 1;
+}
+
+.style figcaption h3 {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.style figcaption p {
+  margin-top: 0px;
+}
+
+.style figcaption a {
+  margin-top: 10px;
+}
+
+
+/*
+====================Contact Page===================
+*/
+
+#contact {
+  background-color: rgb(242, 151, 14);
+  width: 100%;
+  padding-top: 70px;
+}
+
+#contactUp {
+  color: white;
+  font-size: 1.5em;
+}
+
+
+label {
+  font-family: myFont;
+  color: #FCFCFC;
+  font-size: 1.5em;
+}
+
+input[type="submit"] {
+    background-color:  #6BD560;
+    width: 120px; /* width of image */
+    height: 50px; /* height of image */
+    font-size: 1.3em;
+    color: #FCFCFC;
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(20, 170, 65);
+}
+
+#contactUp:hover {
+  color: grey;
+}
+
+.contactBTN,
+.contactBTN:visited {
+  margin-top: 30px;
+  width:130px;
+  margin-left: 10px;
+  border:1px solid #6BD560;
+  color: #FCFCFC;
+  background-color: transparent;
+  font-weight: 400;   
+}
+
+.contactBTN:hover {
+  background-color:#6BD560;
+  color: grey;
+}
+
+.contactHead,
+.contactPara {
+  color: #6BD560;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+#contactForm {
+	width: 500px;
+	margin: auto;
+}
+
+.close {
+  font-size: 2.2em;
+}
+
+.social {
+  padding-top: 30px;
+}
+
+.social i {
+  padding-top: 8px;
+}
+
+.social a {
+  background: #b0b7bf;
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #fff;
+  text-align: center;
+}
+
+.social a:hover {
+  background: #495456;
+  -webkit-transition: background .4s ease-in-out;
+  -moz-transition: background .4s ease-in-out;
+  transition: background .4s ease-in-out;
+}
+
+
+
+

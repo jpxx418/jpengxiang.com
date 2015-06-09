@@ -1,0 +1,140 @@
+/*.floating,.grid div#tile7:hover*/
+div#tile7:hover,
+div#tile8:hover,
+div#tile10:hover {
+
+	animation-name: floating-up;
+
+	-webkit-animation-name: floating-up;
+
+
+
+	animation-duration: 1.5s;	
+
+	-webkit-animation-duration: 1.5s;
+
+
+
+	animation-iteration-count: infinite;
+
+	-webkit-animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes floating-up {
+
+	0% {
+
+		transform: translateY(0%);	
+
+	}
+
+	50% {
+
+		transform: translateY(-10%);	
+
+	}	
+
+	100% {
+
+		transform: translateY(0%);
+
+	}			
+
+}
+
+
+
+@-webkit-keyframes floating-up {
+
+	0% {
+
+		-webkit-transform: translateY(0%);	
+
+	}
+
+	50% {
+
+		-webkit-transform: translateY(-8%);	
+
+	}	
+
+	100% {
+
+		-webkit-transform: translateY(0%);
+
+	}			
+
+}
+
+div#tile2:hover,
+div#tile4:hover {
+
+	animation-name: floating-down;
+
+	-webkit-animation-name: floating-down;
+
+
+
+	animation-duration: 1.5s;	
+
+	-webkit-animation-duration: 1.5s;
+
+
+
+	animation-iteration-count: infinite;
+
+	-webkit-animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes floating-down {
+
+	0% {
+
+		transform: translateY(0%);	
+
+	}
+
+	50% {
+
+		transform: translateY(10%);	
+
+	}	
+
+	100% {
+
+		transform: translateY(0%);
+
+	}			
+
+}
+
+
+
+@-webkit-keyframes floating-down {
+
+	0% {
+
+		-webkit-transform: translateY(0%);	
+
+	}
+
+	50% {
+
+		-webkit-transform: translateY(10%);	
+
+	}	
+
+	100% {
+
+		-webkit-transform: translateY(0%);
+
+	}			
+
+}
+

@@ -1,0 +1,59 @@
+[26-May-2015 09:07:04] PHP Warning:  file_get_contents(http://www.weather-forecast.com/locations//forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/jpengxia/public_html/scraper.php on line 7
+[26-May-2015 09:07:43] PHP Warning:  file_get_contents(http://www.weather-forecast.com/locations/New York/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/jpengxia/public_html/scraper.php on line 7
+[26-May-2015 09:09:01] PHP Warning:  file_get_contents(http://www.weather-forecast.com/locations/New York/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/jpengxia/public_html/scraper.php on line 7
+[26-May-2015 09:09:05] PHP Warning:  file_get_contents(http://www.weather-forecast.com/locations/New York/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/jpengxia/public_html/scraper.php on line 7
+[26-May-2015 09:09:09] PHP Warning:  file_get_contents(http://www.weather-forecast.com/locations/New York/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/jpengxia/public_html/scraper.php on line 7
+[26-May-2015 09:09:12] PHP Warning:  file_get_contents(http://www.weather-forecast.com/locations/New York/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/jpengxia/public_html/scraper.php on line 7
+[26-May-2015 09:09:17] PHP Warning:  file_get_contents(http://www.weather-forecast.com/locations/New York/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/jpengxia/public_html/scraper.php on line 7
+[26-May-2015 09:09:20] PHP Warning:  file_get_contents(http://www.weather-forecast.com/locations/New York/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/jpengxia/public_html/scraper.php on line 7
+[26-May-2015 09:24:37] PHP Warning:  file_get_contents(http://www.weather-forecast.com/locations//forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/jpengxia/public_html/scraper.php on line 7
+[26-May-2015 09:32:33] PHP Warning:  file_get_contents(http://www.weather-forecast.com/locations//forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/jpengxia/public_html/scraper.php on line 7
+[26-May-2015 11:49:03] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:49:03] PHP Warning:  file_get_contents(http://www.weather-forecast.com
+/locations/London/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:49:26] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:49:26] PHP Warning:  file_get_contents(http://www.weather-forecast.com
+/locations/London/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:49:29] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:49:29] PHP Warning:  file_get_contents(http://www.weather-forecast.com
+/locations/London/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:49:50] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:49:50] PHP Warning:  file_get_contents(http://www.weather-forecast.com
+/locations/London/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:51:24] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:51:24] PHP Warning:  file_get_contents(http://www.weather-forecast.com
+/locations/London/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:53:36] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:53:37] PHP Warning:  file_get_contents(http://www.weather-forecast.com
+/locations/London/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:53:39] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:53:39] PHP Warning:  file_get_contents(http://www.weather-forecast.com
+/locations/London/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:54:02] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:54:02] PHP Warning:  file_get_contents(http://www.weather-forecast.com
+/locations/London/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:54:35] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:54:35] PHP Warning:  file_get_contents(http://www.weather-forecast.com
+/locations/London/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:56:51] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:56:51] PHP Warning:  file_get_contents(http://www.weather-forecast.com
+/locations/London/forecasts/latest) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 11:56:51] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '/' found in /home2/jpengxia/public_html/scraper.php on line 12
+[26-May-2015 12:02:54] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 12:03:47] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 12:03:55] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 12:04:18] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 12:07:10] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 12:07:15] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/jpengxia/public_html/scraper.php on line 8
+[26-May-2015 12:07:17] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/jpengxia/public_html/scraper.php on line 8
+[31-May-2015 19:27:14] PHP Fatal error:  Call to undefined function  fadein() in /home2/jpengxia/public_html/index.html on line 533
