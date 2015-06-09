@@ -353,8 +353,8 @@ h3 {
   top: 0;
   left: 0;
   padding: 20px;
-  background: #2c3f52;
-  color: #ed4e6e;
+  background: #404040;
+  color: #85E400;
 }
 
 .grid figcaption h3 { 
@@ -372,8 +372,9 @@ h3 {
   text-align: center;
   padding: 5px 10px;
   border-radius: 2px;
+  text-decoration: none;
   display: inline-block;
-  background: #ed4e6e;
+  background: #33B6A7;
   color: #fff;
 }
 
