@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
     $(".tile").height($("#tile1").width());
     $(".carousel").height($("#tile1").width());
