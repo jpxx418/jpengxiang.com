@@ -168,7 +168,7 @@ h1 {
 */
 
 
-.aboutArrow {
+.arrow {
   color: white;
   font-size: 1em;
   margin: auto;
@@ -176,7 +176,7 @@ h1 {
 }
 
 
-.aboutArrow:hover {
+.arrow:hover {
   color: gray;
 }
 
@@ -213,24 +213,17 @@ h2, p, .img-circle {
 ====================Projects===================
 */
 h3 {
-  font-weight: 150%;
-  font-size: 2.8em;
+  font-weight: bold;
+  font-size: 3em;
   color: #FCFCFC;
   font-family: myFont;
-  margin-bottom: 60px;
 }
 
-.projectArrow {
-  color: white;
-  font-size: 1em;
-  margin: auto;
-  opacity: 0.5;
+.dynamicTile h3 {
+  font-size: 2.2em;
+  margin-bottom: 30px;
 }
 
-
-.projectArrow:hover {
-  color: gray;
-}
 
 #myProjects {
   background-color: rgb(21, 206, 234);
@@ -394,6 +387,123 @@ h3 {
 
 
 /*
+====================Skills Page===================
+*/
+
+#skills {
+  background-color: #39dbb2;
+  width: 100%;
+  min-height: 100%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#skills h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.listData {
+  margin-top: 10px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 2em;
+  color: #FCFCFC;
+  font-family: myFont;
+}
+
+.customBtn_green {
+  background-color: #33CC33;
+  border: none;
+  border-radius: 4px;
+}
+
+.customBtn_green:hover {
+  background-color: rgb(20, 170, 65);
+  color: #FCFCFC;
+  -webkit-transition: background .4s ease-in-out;
+  -moz-transition: background .4s ease-in-out;
+  transition: background .4s ease-in-out;
+}
+
+.customBtn_blue {
+  background-color: #0066FF;
+  border: none;
+  border-radius: 4px;
+}
+
+.customBtn_blue:hover {
+  background-color: #0d16c1;
+  color: #FCFCFC;
+  -webkit-transition: background .4s ease-in-out;
+  -moz-transition: background .4s ease-in-out;
+  transition: background .4s ease-in-out;
+}
+
+.customBtn_yellow {
+  background-color: #e8de27;
+  border: none;
+  border-radius: 4px;
+}
+
+.customBtn_yellow:hover {
+  background-color: #c6bf35;
+  color: #FCFCFC;
+  -webkit-transition: background .4s ease-in-out;
+  -moz-transition: background .4s ease-in-out;
+  transition: background .4s ease-in-out;
+}
+
+.customBtn_orange {
+  background-color: #f4a21d;
+  border: none;
+  border-radius: 4px;
+}
+
+.customBtn_orange:hover {
+  background-color: #d18d21;
+  color: #FCFCFC;
+  -webkit-transition: background .4s ease-in-out;
+  -moz-transition: background .4s ease-in-out;
+  transition: background .4s ease-in-out;
+}
+
+#customBtn {
+  background-color: #ef5c13;
+  border: none;
+  border-radius: 4px;
+}
+
+#customBtn:hover {
+  background-color: #aa3d0a;
+  color: #FCFCFC;
+  -webkit-transition: background .4s ease-in-out;
+  -moz-transition: background .4s ease-in-out;
+  transition: background .4s ease-in-out;
+}
+
+#listChartBtn {
+  font-weight: bold;
+  font-size: 1.8em;
+  color: #FCFCFC;
+  font-family: myFont;
+}
+
+.customFont {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #FCFCFC;
+  font-family: myFont;
+}
+
+.listData title {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+/*
 ====================Contact Page===================
 */
 
@@ -432,10 +542,14 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: rgb(20, 170, 65);
+  color: #FCFCFC;
+  -webkit-transition: background .4s ease-in-out;
+  -moz-transition: background .4s ease-in-out;
+  transition: background .4s ease-in-out;
 }
 
 #contactUp:hover {
-  color: grey;
+  color: gray;
 }
 
 .contactBTN,
@@ -523,6 +637,9 @@ input[type="submit"]:hover {
   transition: background .4s ease-in-out;
 }
 
+/*
+====================Footer===================
+*/
 
 footer {
   bottom: 0;

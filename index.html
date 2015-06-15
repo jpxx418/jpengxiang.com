@@ -41,6 +41,7 @@
           <li class="hidden menuBar page-scroll"><a href="#home"></a></li>
           <li><a class="page-scroll menuBar" href="#about">About</a></li>
           <li><a class="page-scroll menuBar" id="projectsMenuColor" href="#myProjects">Projects</a></li>
+          <li><a class="page-scroll menuBar" href="#skills">Skills</a></li>
           <li><a class="page-scroll menuBar" href="#contact">Contact</a></li>
         </ul>
       </div> 
@@ -66,7 +67,7 @@
     <div class="row center">
       <div class="col-md-6 col-md-offset-3">
         <div><a href="#home" class="btn page-scroll">
-          <i class="fa fa-chevron-up animated aboutArrow"></i>
+          <i class="fa fa-chevron-up animated arrow" style="margin-bottom:20px"></i>
         </a></div>
         <img class="img-circle" src="image/myPhoto.jpg" width="150" height="150">
         <h2 class="heading">Nice to meet you!</h2>
@@ -77,7 +78,7 @@
         <p>Thank you for your visiting.<br />
            Hope you will enjoy it!</p>
         <a href="#myProjects" class="btn page-scroll">
-          <i class="fa fa-chevron-down animated aboutArrow"></i>
+          <i class="fa fa-chevron-down animated arrow" style="margin-top:20px"></i>
         </a>
       </div>
     </div>
@@ -88,7 +89,7 @@
 <div class="container projectContainer" id="myProjects">
 
  <div class="center"><a href="#about" class="btn page-scroll" >
-          <i class="fa fa-chevron-up animated projectArrow"></i>
+          <i class="fa fa-chevron-up animated arrow"></i>
         </a></div>
  <div class="center">
     <h3>My Projects</h3>
@@ -501,8 +502,8 @@
     </div>
 </div>
 
-    <div class="center"><a href="#contact" class="btn page-scroll">
-          <i class="fa fa-chevron-down animated projectArrow"></i>
+    <div class="center"><a href="#skills" class="btn page-scroll">
+          <i class="fa fa-chevron-down animated arrow" style="margin-top:20px"></i>
         </a></div>
  
 
@@ -510,12 +511,120 @@
  </div>
 
 <!--
+===============================Skills Page=========================================
+-->
+<div class="container" id="skills">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 center">
+            <div><a href="#myProjects" class="btn page-scroll">
+            <i class="fa fa-chevron-up animated arrow" style="margin-top:10px"></i>
+            </a></div>
+            <h3>My Skills</h3>
+        </div>
+        <div class="center skillList">
+            <div class="col-md-6 col-md-offset-3 listData">
+                <button type="button" class="customBtn_green" data-container="body" title="Advanced" data-toggle="popover" data-placement="left" data-content="Many hands-on experiences based on HTML/CSS"><span class="customFont">HTML/CSS</span></button>
+                <button type="button" class="customBtn_green" data-container="body" title="Advanced" data-toggle="popover" data-placement="top" data-content="Built interesting projects using JS."><span class="customFont">JavaScript</span></button>
+                <button type="button" class="customBtn_green" data-container="body" title="Advanced" data-toggle="popover" data-placement="right" data-content="I built this website using Twitter Bootstrap. I learned a lot from building this website."><span class="customFont">Bootstrap</span></button>
+            </div>
+            <div class="col-md-6 col-md-offset-3 listData">
+                <button type="button" class="customBtn_blue" data-container="body" title="Intermediate" data-toggle="popover" data-placement="left" data-content="Implemented form validation for contact form on page 'Contact'."><span class="customFont">PHP</span></button>
+                <button type="button" class="customBtn_orange" data-container="body" title="Intermediate" data-toggle="popover" data-placement="top" data-content="Project 'Geek Station' is based on ruby on rails framework."><span class="customFont">Ruby on Rails</span></button>
+                <button type="button" class="customBtn_blue" data-container="body" title="Intermediate" data-toggle="popover" data-placement="top" data-content="I used CSS3 for animation effect of this website."><span class="customFont">CSS3</span></button>
+                <button type="button" class="customBtn_yellow" data-container="body" title="Beginner" data-toggle="popover" data-placement="top" data-content="Learning in process..."><span class="customFont">HTML5</span></button>
+                <button type="button" class="customBtn_green" data-container="body" title="Advanced" data-toggle="popover" data-placement="right" data-content="I used MySQL for user signing up and signing in on project 'Online Diary'."><span class="customFont">MySQL</span></button>
+            </div>
+            <div class="col-md-6 col-md-offset-3 listData">
+                <button type="button" class="customBtn_orange" data-container="body" title="Intermediate" data-toggle="popover" data-placement="left" data-content="Using jQuery for building special effects on this website."><span class="customFont">jQuery</span></button>
+                <button type="button" class="customBtn_yellow" data-container="body" title="Beginner" data-toggle="popover" data-placement="top" data-content="Learning in process..."><span class="customFont">AngularJS</span></button>
+                <button type="button" class="customBtn_orange"  data-container="body" title="Intermediate" data-toggle="popover" data-placement="top" data-content="Hands-on experience on Ruby."><span class="customFont">Ruby</span></button>
+                <button type="button" class="customBtn_orange" data-container="body" title="Intermediate" data-toggle="popover" data-placement="right" data-content="Have experience with css pre processors"><span class="customFont">SCSS</span></button>
+            </div>
+            <div class="col-md-6 col-md-offset-3 listData">
+                <button type="button" class="customBtn_blue" data-container="body" title="Intermediate" data-toggle="popover" data-placement="left" data-content="Have implemented projects using Java."><span class="customFont">Java</span></button>
+                <button type="button" class="customBtn_orange"  data-container="body" title="Intermediate" data-toggle="popover" data-placement="top" data-content="Experienced with some hardware and circuit design using C and C++."><span class="customFont">C/C++</span></button>
+                <button type="button" class="customBtn_yellow" data-container="body" title="Beginner" data-toggle="popover" data-placement="top" data-content="Learning in process..."><span class="customFont">Node.js</span></button>
+                <button type="button" class="customBtn_yellow" data-container="body" title="Beginner" data-toggle="popover" data-placement="top" data-content="Learning in process..."><span class="customFont">MongoDB</span></button>
+                <button type="button" class="customBtn_green" data-container="body" title="Advanced" data-toggle="popover" data-placement="top" data-content="Working knowledge on SQL."><span class="customFont">SQL</span></button>
+                <button type="button" class="customBtn_orange"  data-container="body" title="Intermediate" data-toggle="popover" data-placement="right" data-content="Experienced with project using JDBC."><span class="customFont">JDBC</span></button>
+            </div>
+            <div class="col-md-6 col-md-offset-3 listData">
+                <button type="button" class="customBtn_green" data-container="body" title="Advanced" data-toggle="popover" data-placement="left" data-content="Learned to play the violin since 4 years old."><span class="customFont">Violin</span></button>
+                <button type="button" class="customBtn_green" data-container="body" title="Advanced" data-toggle="popover" data-placement="bottom" data-content="Learned to play table tennis since 6 years old."><span class="customFont">Table Tennis</span></button>
+                <button type="button" class="customBtn_green" data-container="body" title="Advanced" data-toggle="popover" data-placement="right" data-content="This is my major in the University of Michigan. But now I have more love on Front-end design."><span class="customFont">VLSI Design</span></button>
+            </div>
+        </div>
+    </div>
+        <div class="col-md-6 col-md-offset-3 center" style="margin-top: 20px">
+            <button type="button" id="customBtn"><span id="listChartBtn">Click on Me!</span></button>
+        </div>
+        <div class="row" style="margin-top:30px">
+            <div class="col-xs-2 center">
+                <div class="indicatorContainer" id="indicatorContainer1"></div>
+                <h4 class="chartDescription">HTML/CSS</h4> 
+            </div>
+            <div class="col-xs-2 center">
+                <div class="indicatorContainer" id="indicatorContainer2"></div>
+                <h4 class="chartDescription">JavaScript</h4>
+            </div>
+            <div class="col-xs-2 center"> 
+                <div class="indicatorContainer" id="indicatorContainer3"></div>
+                <h4 class="chartDescription">Twitter Bootstrap</h4>
+            </div>
+            <div class="col-xs-2 center">
+                <div class="indicatorContainer" id="indicatorContainer4"></div>
+                <h4 class="chartDescription">jQuery</h4>
+            </div>
+            <div class="col-xs-2 center">
+                <div class="indicatorContainer" id="indicatorContainer5"></div> 
+                <h4 class="chartDescription">SQL</h4>
+            </div>
+            <div class="col-xs-2 center">
+                <div class="indicatorContainer" id="indicatorContainer6"></div> 
+                <h4 class="chartDescription">PHP</h4>
+            </div>
+        </div>
+        <div class="row" style="margin-top:50px">
+            <div class="col-xs-2 center">
+                <div class="indicatorContainer" id="indicatorContainer7"></div> 
+                <h4 class="chartDescription">Java</h4>
+            </div>
+            <div class="col-xs-2 center">
+                <div class="indicatorContainer" id="indicatorContainer8"></div>
+                <h4 class="chartDescription">HTML5</h4>
+            </div>
+            <div class="col-xs-2 center"> 
+                <div class="indicatorContainer" id="indicatorContainer9"></div>
+                <h4 class="chartDescription">Ruby on Rails</h4>
+            </div>
+            <div class="col-xs-2 center">
+                <div class="indicatorContainer" id="indicatorContainer10"></div>
+                <h4 class="chartDescription">Violin</h4>
+            </div>
+            <div class="col-xs-2 center">
+                <div class="indicatorContainer" id="indicatorContainer11"></div> 
+                <h4 class="chartDescription">Table Tennis</h4>
+            </div>
+            <div class="col-xs-2 center">
+                <div class="indicatorContainer" id="indicatorContainer12"></div> 
+                <h4 class="chartDescription">IC Design</h4>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-md-offset-3 center"><a href="#contact" class="btn page-scroll">
+          <i class="fa fa-chevron-down animated arrow"></i>
+        </a></div>
+    </div>
+
+
+
+<!--
 ===============================Contact Page=========================================
 -->
   <div class="container" id="contact">
     <div class="row center">
       <div class="col-xs-8 col-xs-offset-2">
-        <div class="center"><a href="#myProjects" class="btn page-scroll">
+        <div class="center"><a href="#skills" class="btn page-scroll">
           <i class="fa fa-chevron-up animated" id="contactUp"></i>
         </a></div>
         <h2 class="heading">Contact with me!</h2>
@@ -572,7 +681,7 @@
 
   <footer class="footer">
       <div class="container">
-        <h6 class="text-muted center">Copyright &#169 Pengxiang Jiang 2015</h6>
+        <h5 class="text-muted center">Copyright &#169 Pengxiang Jiang 2015</h5>
       </div>
     </footer>
 
@@ -580,8 +689,11 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js_file/jquery.min.js"></script>
 
+<script src="js_file/radialIndicator.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="js_file/bootstrap.min.js"></script>
+
+<script src="js_file/progressCircle.js"></script>
 
 <script src="js_file/jquery.easing.min.js"></script>
 
