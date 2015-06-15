@@ -1,3 +1,8 @@
+/*
+====================General===================
+*/
+
+
 /* Remove dotted outline in IE or FireFox and grey border in chrome, Safari */
 :focus, :hover, :active { outline:0 !important; 
   -webkit-box-shadow: none !important; 
@@ -21,6 +26,17 @@ html, body {
   /*font-family: myFont;
   font-family: Frutiger;
   font-family: Futura, 'Trebuchet MS', Arial, sans-serif;*/
+}
+
+@media(min-width:1500px) {
+
+  #aboutUp, #projectUp {
+    margin-top: 80px;
+  }
+  #skillUp, #contactUp {
+    padding-top: 100px;
+  }
+
 }
 
 /*
@@ -185,7 +201,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2.8em;
+  font-size: 3em;
+  font-weight: bold;
 }
 
 p {
@@ -198,7 +215,6 @@ h2, p, .img-circle {
   margin: auto;
 }
 
-
 #about {
   background-color: #6ECD66;
   width: 100%;
@@ -207,6 +223,9 @@ h2, p, .img-circle {
   padding-top: 60px;
 }
 
+#aboutUp {
+  margin-bottom: 20px;
+}
 
 
 /*
@@ -501,6 +520,10 @@ h4 {
 .listData title {
   font-weight: bold;
   font-size: 1.3em;
+}
+
+#skillUp {
+  margin-top: 10px;
 }
 
 /*
