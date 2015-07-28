@@ -70,6 +70,7 @@ div#tile10:hover {
 }
 
 div#tile2:hover,
+div#tile3:hover,
 div#tile4:hover {
 
 	animation-name: floating-down;
