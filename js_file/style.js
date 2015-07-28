@@ -56,7 +56,7 @@ percentage: true
 var radialObj = $('#indicatorContainer1').data('radialIndicator');
 radialObj.animate(80);
 var radialObj = $('#indicatorContainer2').data('radialIndicator');
-radialObj.animate(70);
+radialObj.animate(60);
 var radialObj = $('#indicatorContainer3').data('radialIndicator');
 radialObj.animate(80);
 var radialObj = $('#indicatorContainer4').data('radialIndicator');
@@ -66,7 +66,7 @@ radialObj.animate(77);
 var radialObj = $('#indicatorContainer6').data('radialIndicator');
 radialObj.animate(50);
 var radialObj = $('#indicatorContainer7').data('radialIndicator');
-radialObj.animate(60);
+radialObj.animate(70);
 var radialObj = $('#indicatorContainer8').data('radialIndicator');
 radialObj.animate(20);
 var radialObj = $('#indicatorContainer9').data('radialIndicator');
